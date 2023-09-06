@@ -40,7 +40,7 @@ unique_features = df["feature_name"].unique()
 
 while True:
     map_nomenclature = input(
-        "Zadaj cislo mapoveho listu (zadaj 'q' ak chces ukoncit): "
+        "Zadaj cislo (nomeklaturu) mapoveho listu (zadaj 'q' ak chces ukoncit): "
     ).strip()
 
     if map_nomenclature.lower() == "q":
